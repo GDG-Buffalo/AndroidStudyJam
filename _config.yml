@@ -1,0 +1,196 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "GDG Buffalo Study Jam 2016"
+email: "gdgbuffalo@gmail.com"
+description: "GDG Study Jam is a set of events all around the world"
+url: "https://gdg-buffalo.github.io"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-43643469-5"
+googleAnalyticsSiteUrl: "gdg-buffalo.github.io"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "GDG Lviv"
+organizerAlternateName: "Google Developer Group Lviv"
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "lviv@gdg.org.ua"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://lviv.gdg.org.ua/"
+
+# Head
+metaKeywords: "event, gdg, study jam, google, programming, android, chrome, developers, buffalo"
+twitterAccount: "@StudyJamBuffalo"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "https://docs.google.com/forms/d/15BOSL3TmDgHIRmwVHsgtUynlwrdL991t4PL0rC24ylM/viewform?usp=send_form"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+
+# Navigation
+navigationLinks:
+# - {permalink: "/", text: "Home"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "GDG Study Jam <typeout> 2016"
+eventDate: "February 18, 2016"
+typeoutTextValues: '"", "Buffalo", "New York", "USA"'
+typeoutFallback: "Buffalo"
+heroButtons:
+ - {permalink: "/#tickets", text: "Buy tickets"}
+
+# About Block
+aboutTitle: "About GDG Study Jam"
+aboutBlock:
+ - {title: "Workshops", image: "workshop.jpg", text: "Come join GDG Buffalo for our “Android Study Jam”!</br> </br>
+
+Students who participate in this event are expected to have completed the FREE Udacity course “Android
+
+Development for Beginners” before the event. The course can be accessed via the following link:<br/><br/><a href=\"https://www.udacity.com/account/affiliate/GoogleStudyJams\">
+
+https://www.udacity.com/account/affiliate/GoogleStudyJams
+</a><br/><br/>
+FREE food and drinks will be supplied as well. All participants will be provided a ticket upon signing in. <br/> At the end of the evening we will raffle off <b>$1,000 in prizes!</b>" }
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Davis Hall"
+eventLocationLink: "http://gdg-buffalo.github.io/"
+eventStreetAddress: "University at Buffalo"
+eventAddressLocality: "Amherst"
+eventAddressLocalityRegion: "New York"
+eventPostalCode: "14260"
+eventAddressCountry: "USA"
+eventStartTime: "2016-02-18T18:00"
+eventDoorTime: "18:00"
+eventEndTime: "2016-02-18T21:00"
+eventPlaceCoordinates: "43.00275,-78.787242"
+mapCenterCoordinates: "43.00275,-78.787242"
+mapMobileCenterCoordinates: "43.00275,-78.787242"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "Davis 101"
+venueFeatures: ["Located at 1st floor of Davis Hall"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "GDGStudyJamBuffalo"
+twitterFeed: "http://gdg-buffalo.github.io/zeppelin/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "//google.us11.list-manage.com/subscribe/post?u=a46cc85a3cb5b090bf266daf7&amp;id=f8934cade4"
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"# Tickets Block
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+ -
+  name: "Student/Faculty"
+  price: "FREE"
+  buyButtonLink: "https://www.eventbrite.com/e/2016-gdg-buffalo-q1-android-study-jam-and-android-app-competition-tickets-21010357545?aff=ehomecard"
+  buyButtonText: "Register Now"
+  additionalInfo: "Requires a valid student/faculty ID at the conference check in. Without student/faculty ID at the check in, ticket will be cancelled"
+  validThrough: "2016-02-18T17:59"
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/108106255897548082799", icon: "google-plus"}
+ - {link: "https://twitter.com/GDGBuffalo", icon: "twitter"}
+ - {link: "https://www.facebook.com/gdgbuffalo", icon: "facebook"}
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+  - {link: "https://developers.google.com/groups/chapter/108106255897548082799/", text: "GDG Buffalo"}
+  - {link: "https://developers.google.com", text: "Google Developers"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:mingcong@buffalo.edu", text: "GDG Buffalo"}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "/cod/", text: "Code of Conduct"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "43.00275,-78.787242"
+logisticsMapMobileCenterCoordinates: "43.00275,-78.787242"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Get around Buffalo"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Exit the airport following the signs leading to Route 33 West toward Buffalo. Route 33 (Kensington Expressway) begins at the West Gate of the Buffalo Niagara Airport. Take Route 33 West to the I-90 East to the I-290 West. Take the I-290 West (toward Niagara Falls) to Exit 5B (Millersport Highway, Route 263). Get off exit and merge into traffic. Go through first light (Marriott is on your left), and merge into right lane. Enter campus at the Flint Road exit.'}
+ - {title: "Public Transit", information: 'Bus Transit is available in Buffalo. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Buffalo.'}
+ - {title: "Hotels", information: 'Buffalo has lots of great hotels and hostels. More information will be available later.'}
+# directionDetailsWideCards:
+#  -
+#   title: "Questions?"
+#   subCards:
+#    -
+#     title: "Hotels"
+#     links:
+#      - {link: "http://gdg-buffalo.github.io/zeppelin", text: "Marriott"}
+#    -
+#     title: "Registration"
+#     links:
+#      - {link: "http://gdg-buffalo.github.io/zeppelin", text: "Mariott"}
+#    -
+#     title: "Attendance Details"
+#     links:
+#      - {link: "http://gdg-buffalo.github.io/zeppelin", text: "Mariott"}
